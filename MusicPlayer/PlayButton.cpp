@@ -3,13 +3,13 @@
 #include <iostream>
 #include "MusicPlayer.h"
 
-void PlayButton::handleClick(sf::RenderWindow& mWindow, MusicPlayer& mPlayer)
+void PlayButton::handleClick(sf::RenderWindow& mWindow, MusicPlayer& mPlayer, int id)
 {
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 	{
 		if (sprite.getGlobalBounds().contains(mWindow.mapPixelToCoords(sf::Mouse::getPosition(mWindow))))
 		{
-			mPlayer.play(0);
+			mPlayer.play(id);
 			std::cout << "Playing" << std::endl;
 		}
 	}

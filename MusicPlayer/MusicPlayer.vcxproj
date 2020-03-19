@@ -142,8 +142,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="AprilButton.cpp" />
     <ClCompile Include="Button.cpp" />
+    <ClCompile Include="FortniteButton.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MinecraftButton.cpp" />
     <ClCompile Include="MusicPlayer.cpp" />
     <ClCompile Include="PauseButton.cpp" />
     <ClCompile Include="PlayButton.cpp" />
@@ -152,7 +155,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="AprilButton.h" />
     <ClInclude Include="Button.h" />
+    <ClInclude Include="FortniteButton.h" />
+    <ClInclude Include="MinecraftButton.h" />
     <ClInclude Include="MusicPlayer.h" />
     <ClInclude Include="PauseButton.h" />
     <ClInclude Include="PlayButton.h" />

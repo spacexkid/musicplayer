@@ -3,11 +3,11 @@
 #include <SFML/Audio.hpp>
 #include "MusicPlayer.h"
 
-class PlayButton : public Button
+class FortniteButton : public Button
 {
 public:
-	void handleClick(sf::RenderWindow& mWindow, MusicPlayer& mPlayer, int id);
+	void handleClick(sf::RenderWindow& mWindow, int& id);
+	void changeId(int& id);
 	using Button::Button;
-
 
 };

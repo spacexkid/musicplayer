@@ -44,9 +44,12 @@ void App::processEvents()
 			mWindow.close();
 			break;
 		case sf::Event::MouseButtonPressed:
-			playButton.handleClick(mWindow, mPlayer);
+			playButton.handleClick(mWindow, mPlayer, id);
 			pauseButton.handleClick(mWindow, mPlayer);
 			stopButton.handleClick(mWindow, mPlayer);
+			fortniteButton.handleClick(mWindow, id);
+			minecraftButton.handleClick(mWindow, id);
+			aprilButton.handleClick(mWindow, id);
 			break;
 		}
 	}
@@ -66,6 +69,9 @@ void App::render() {
 	playButton.show(mWindow);
 	pauseButton.show(mWindow);
 	stopButton.show(mWindow);
+	fortniteButton.show(mWindow);
+	minecraftButton.show(mWindow);
+	aprilButton.show(mWindow);
 	mWindow.display();
 }
 

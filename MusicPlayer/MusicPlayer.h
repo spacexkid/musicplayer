@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <map>
-//Credit to the folks behind SFML Game Development by Packt Publishing. Really good book and it's where I learned how to make this music player.
+
 class MusicPlayer : private sf::NonCopyable
 {
 public:

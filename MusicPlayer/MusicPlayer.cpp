@@ -3,6 +3,8 @@
 MusicPlayer::MusicPlayer() : mMusic(), mFilenames(), mVolume(100.0f)
 {
 	mFilenames[0] = "Minecraft.ogg";
+	mFilenames[1] = "aprilshowers.ogg";
+	mFilenames[2] = "fortniteanthem.ogg";
 }
 
 void MusicPlayer::play(int id)
